@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula Frete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sistema">
+
+        <form action="" method="post">
+
+            <h1>Sistema de Cálculo de Frete</h1>
+        
+            <label for="nome">Nome do Cliente</label>
+            <input type="text" id="nome" required>
+
+            <label for="cidadeOrigem">Cidade de origem</label>
+            <input type="text" id="cidadeOrigem" required>
+
+            <label for="cidadeDestino">Cidade de destino</label>
+            <input type="text" id="cidadeDestino" required>
+
+            <label for="distancia">Distância em Quilômetros</label>
+            <input type="number" id="distancia" step="0.01" min="0" required>
+
+            <label for="descricao">Descrição da Mercadoria</label>
+            <input type="text" id="descricao" required>
+
+            <label for="notaFiscal">Valor da Nota Fiscal</label>
+            <input type="number" id="notaFiscal" step="0.01" min="0" required>
+            
+            <label for="pesoReal">Peso Real em Quilogramas</label>
+            <input type="number" id="pesoReal" step="0.01" min="0" required>
+
+            <label for="comprimento">Comprimento em centímetros</label>
+            <input type="number" id="comprimento" step="0.01" min="0" required>
+
+            <label for="altura">Altura em centímetros</label>
+            <input type="number" id="altura" step="0.01" min="0" required>
+
+            <label for="largura">Largura em centímetros</label>
+            <input type="number" id="largura" step="0.01" min="0" required>
+
+            <label for="taxas">Taxas</label>
+            <input type="number" id="taxas" step="0.01" min="0" required>
+
+            <label for="percentual">Percentual</label>
+            <input type="number" id="percentual" step="0.01" min="0" value="0">
+
+            <button type="button" onclick="calcularFrete()">Calcular Frete</button>
+
+            <button type="button" onclick="limparFormulario()">Limpar</button>
+
+        </form>
+
+        <div id="resultado">
+            <p>Preencha todos os dados e clique em "Calcular Frete"</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
