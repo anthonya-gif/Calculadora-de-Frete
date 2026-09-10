@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Calcular Frete</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="sistema">
@@ -31,7 +35,10 @@
 
             <label for="notaFiscal">Valor da Nota Fiscal</label>
             <input type="number" id="notaFiscal" step="0.01" min="0" required>
-            
+
+            <label for="quantidadeVolumes">Quantidade de Volumes</label>
+            <input type="number" id="quantidadeVolumes" step="1" min="1" required>
+
             <label for="pesoReal">Peso Real em Quilogramas</label>
             <input type="number" id="pesoReal" step="0.01" min="0" required>
 
@@ -45,10 +52,10 @@
             <input type="number" id="largura" step="0.01" min="0" required>
 
             <label for="taxas">Taxas</label>
-            <input type="number" id="taxas" step="0.01" min="0" required>
+            <input type="number" id="taxas" step="0.01" min="0" value="0" required>
 
             <label for="percentual">Percentual</label>
-            <input type="number" id="percentual" step="0.01" min="0" value="0">
+            <input type="number" id="percentual" step="0.01" min="0" value="0" required>
 
             <button type="button" onclick="calcularFrete()">Calcular Frete</button>
 
@@ -63,6 +70,5 @@
     </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
