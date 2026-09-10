@@ -116,7 +116,7 @@ function resultado() {
     <p><strong>Comprimento:</strong> ${comprimento.toFixed(2)} cm</p>
     <p><strong>Largura:</strong> ${largura.toFixed(2)} cm</p>
     <p><strong>Altura:</strong> ${altura.toFixed(2)} cm</p>
-    <p><strong>Volume:</strong> ${volume.toFixed(2)}</p>
+    <p><strong>Volume total de carga:</strong> ${volume.toFixed(2)}</p>
     <hr>
 
     <h3>Peso:</h3>
