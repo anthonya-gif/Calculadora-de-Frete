@@ -1,5 +1,5 @@
 let fatorModal = 300;
-let freteMinimo = 50;
+let freteMinimo = 10;
 
 let nome = null;
 let cidadeOrigem = null;
