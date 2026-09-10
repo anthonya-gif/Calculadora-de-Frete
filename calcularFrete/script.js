@@ -1,6 +1,5 @@
 let fatorModal = 300;
 let freteMinimo = 10;
-
 let nome = null;
 let cidadeOrigem = null;
 let cidadeDestino = null;
@@ -272,7 +271,7 @@ function resultado() {
     <p><strong>Situação:</strong> ${freteMinimoTexto}</p>
     <hr>
 
-    <h3>Valores</h3>
+    <h3>Valores:</h3>
 
     <p><strong>Nota fiscal:</strong> ${formatarMoeda(notaFiscal)}</p>
 
