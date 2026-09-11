@@ -1,5 +1,6 @@
-let fatorModal = 300;
-let freteMinimo = 10;
+const fatorModal = 300;
+const freteMinimo = 19;
+
 let nome = null;
 let cidadeOrigem = null;
 let cidadeDestino = null;
